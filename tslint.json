@@ -1,0 +1,29 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier"
+  ],
+  "jsRules": {},
+  "rules": {
+    "no-unused-expression": false,
+    "no-conditional-assignment": false,
+    "no-angle-bracket-type-assertion": false,
+    "no-empty-interface": true,
+    "no-console": [
+      false,
+      "error",
+      "warning"
+    ],
+    "object-literal-sort-keys": false,
+    "max-classes-per-file": false,
+    "label-position": false,
+    "no-shadowed-variable": false,
+    "no-restricted-globals": false
+  },
+  "rulesDirectory": [],
+  "prettier": [
+    true,
+    "./prettierrc.json"
+  ]
+}

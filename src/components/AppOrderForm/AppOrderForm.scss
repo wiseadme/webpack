@@ -1,0 +1,17 @@
+.address-block {
+  border-radius: 3px;
+}
+
+.address-details {
+  @include flex(flex, center, center);
+  flex-wrap: wrap;
+
+  &__input {
+    width: 45%;
+    margin: 0 10px;
+  }
+
+  &__text {
+    margin: 0 10px;
+  }
+}

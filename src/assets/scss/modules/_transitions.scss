@@ -1,0 +1,19 @@
+@mixin transition-default() {
+  &-enter-active,
+  &-leave-active {
+    transition: .2s all linear !important;
+  }
+
+  &-move {
+    transition: transform .2s;
+  }
+}
+
+.fade {
+  @include transition-default();
+
+  &-enter-from, &-leave-to {
+    opacity: 0;
+    position: absolute;
+  }
+}

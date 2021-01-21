@@ -1,0 +1,7 @@
+export enum Types {
+  SET_USER = 'SET_USER',
+  SET_TOKENS = 'SET_TOKENS',
+  SET_GROUPS = 'SET_GROUPS',
+  SET_NEW_GROUP = 'SET_NEW_GROUP',
+  SET_ORDERS = 'SET_ORDERS'
+}

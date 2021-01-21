@@ -1,0 +1,14 @@
+.app-dialog {
+  &__header {
+    @include flex(flex, flex-start, center);
+    width: 100%;
+  }
+  &__content {
+    justify-content: flex-start !important;
+    width: 100%;
+  }
+
+  &__actions {
+    width: 100%;
+  }
+}
